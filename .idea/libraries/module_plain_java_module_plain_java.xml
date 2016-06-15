@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="module-plain-java.module-plain-java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/module-plain-java/build/libs/module-plain-java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
