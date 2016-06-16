@@ -11,6 +11,10 @@ android {
      */
     publishNonDefault true
 
+    lintOptions {
+        abortOnError false
+    }
+
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
