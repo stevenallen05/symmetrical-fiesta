@@ -18,6 +18,12 @@ android {
     // test should run against.
     targetProjectPath ':app'
     targetVariant 'flavor1Debug'
+
+
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {

@@ -16,7 +16,15 @@ android {
         // Define ProGuard rules for this android library project. These rules will be applied when
         // a consumer of this library sets 'minifyEnabled true'.
         consumerProguardFiles 'proguard-consumer-rules.pro'
+
+        android {
+            lintOptions {
+                abortOnError false
+            }
+        }
     }
+
+
 }
 
 dependencies {
